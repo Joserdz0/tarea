@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
 	//Creacion  de objeto tipo Persona
-       	Persona nuevaPersona = new Persona( "Jonathan", "Mexicano", 20);
+       	Persona nuevaPersona = new Persona( "Jose", "Mexicano", 20);
 
         System.out.println("Datos persona: "+
 				nuevaPersona.dameDatosPersona());
@@ -17,7 +17,7 @@ public class Main {
 
 	//Creacion de objeto tipo Empleado
         Empleado nuevoEmpleado = new Empleado (317, 5526262626, 13000,
-						21, "Jonathan", "Mexicano" );
+						21, "Jose", "Mexicano" );
 
         nuevoEmpleado.datosEmpleado();
 
